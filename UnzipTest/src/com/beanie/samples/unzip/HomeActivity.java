@@ -111,7 +111,7 @@ public class HomeActivity extends Activity
             }
             catch (IOException e)
             {
-                sendMessage("Exception occured: " + e.getMessage());
+                sendMessage("Exception occurred: " + e.getMessage());
                 e.printStackTrace();
             }
         }
